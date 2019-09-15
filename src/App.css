@@ -1,9 +1,12 @@
-.App-logo-text {
 
-}
+
 
 .App {
   text-align: center;
+}
+
+.App-front-img {
+
 }
 
 .App-logo {
@@ -12,9 +15,31 @@
   pointer-events: none;
 }
 
-.App-header {
+.App-header{
+    background-color: #282c34;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px + 2vmin);
+    color: white;
+}
+
+.App-header button {
+    font-size: calc(10px + 2vmin);
+}
+
+.App-header  p {
+    padding-top: 30px;
+}
+
+
+
+
+.App-container {
   background-color: #282c34;
-  min-height: 100vh;
+  #min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,4 +59,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#logoTitle {
+    font-size: calc(20px + 2vmin);
+    text-decoration: none;
+}
+
+#langButton {
+    font-size: calc(1vmin);
+}
+
+#start {
+    font-size: calc(2vmin);
 }
